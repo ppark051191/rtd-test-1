@@ -56,4 +56,15 @@ html_js_files = ["js/expand_tabs.js"]
 # epub_show_urls = 'footnote'
 
 # -- Options for myst_header
-suppress_warnings = ["myst.header"]
+suppress_warnings = [
+    "myst.header",
+    "sphinx_design"
+]
+
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+}
+
+source_suffix = ['.rst', '.md']
+
+master_doc = 'snowflake/index'
