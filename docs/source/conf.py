@@ -1,10 +1,10 @@
-# Configuration file for the Sphinx documentation builder.
+
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Sonarverse'
+copyright = '2023, Sonarverse'
+author = 'Sonarverse'
 
 release = '0.1'
 version = '0.1.0'
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "myst_parser",
 ]
 
 intersphinx_mapping = {
@@ -27,9 +28,32 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+multiproject_projects = {
+    "user": {
+        "use_config_file": False,
+        "config": {
+            "project": "Read the Docs user documentation",
+            "html_title": "Read the Docs user documentation",
+        },
+    },
+    "dev": {
+        "use_config_file": False,
+        "config": {
+            "project": "Read the Docs developer documentation",
+            "html_title": "Read the Docs developer documentation",
+        },
+    },
+}
+
 # -- Options for HTML output
 
-# html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
+# html_static_path = ["img"]
+html_css_files = ["css/custom.css", "css/sphinx_prompt_css.css"]
+html_js_files = ["js/expand_tabs.js"]
 
 # -- Options for EPUB output
-epub_show_urls = 'footnote'
+# epub_show_urls = 'footnote'
+
+# -- Options for myst_header
+suppress_warnings = ["myst.header"]
