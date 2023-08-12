@@ -51,6 +51,8 @@ html_theme = 'sphinx_rtd_theme'
 # html_static_path = ["img"]
 html_css_files = ["css/custom.css", "css/sphinx_prompt_css.css"]
 html_js_files = ["js/expand_tabs.js"]
+html_show_sphinx = False
+html_show_copyright = False
 
 # -- Options for EPUB output
 # epub_show_urls = 'footnote'
@@ -67,4 +69,4 @@ source_parsers = {
 
 source_suffix = ['.rst', '.md']
 
-master_doc = 'snowflake/index'
+source_doc = 'snowflake/index'
