@@ -1,12 +1,15 @@
-# Sonarverse Documentation
+Sonarverse Documentation
+========================
 
-### This page gives a brief overview of Snowflake and why Sonarverse has chosen it to house our data.
+This page gives a brief overview of Snowflake and why Sonarverse has chosen it to house our data.
+-------------------------------------------
 
 .. note::
 
    This project is under active development.
 
-## Contents
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
