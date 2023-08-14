@@ -53,6 +53,10 @@ html_css_files = ["css/custom.css", "css/sphinx_prompt_css.css"]
 html_js_files = ["js/expand_tabs.js"]
 html_show_sphinx = False
 html_show_copyright = False
+html_theme_options = {
+    'collapse_navigation': True,
+    'navigation_depth': 3
+}
 
 # -- Options for EPUB output
 # epub_show_urls = 'footnote'
