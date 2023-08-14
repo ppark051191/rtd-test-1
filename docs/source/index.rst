@@ -8,24 +8,24 @@ We maintain the infrastructure necessary for blockchain data ingestion and trans
 
 Get Started with Snowflake Data Share
 -------------------------------------
-- Check out our Listings page to see all our supported chains.
-- Perform test queries to preview the capabilities of our robust datasets!
-- Don’t have a Snowflake account yet? Start here.
+* Check out our Listings page to see all our supported chains.
+* Perform test queries to preview the capabilities of our robust datasets!
+* Don’t have a Snowflake account yet? Start here.
 
 Learn More
 ----------
-- Sonarverse Docs describe the various datasets available for our users, including
+* Sonarverse Docs describe the various datasets available for our users, including
 
-  - PRICED_TRANSFERS
-  - TOKENS
-  - TRANSACTIONS
-  - And more!
+  * PRICED_TRANSFERS
+  * TOKENS
+  * TRANSACTIONS
+  * And more!
 
-- New to Web3? View our Terminology page for an overview of must-know terms in the Web3 space.
+* New to Web3? View our Terminology page for an overview of must-know terms in the Web3 space.
 
-Questions or Feedback?
-Reach out to us at support@sonarverse.com
+
 
 .. note::
 
-   This project is under active development.
+   Questions or Feedback?
+   Reach out to us at support@sonarverse.com
