@@ -15,10 +15,12 @@ Get Started with Snowflake Data Share
 Learn More
 ----------
 - Sonarverse Docs describe the various datasets available for our users, including
+
   - PRICED_TRANSFERS
   - TOKENS
   - TRANSACTIONS
   - And more!
+
 - New to Web3? View our Terminology page for an overview of must-know terms in the Web3 space.
 
 Questions or Feedback?
