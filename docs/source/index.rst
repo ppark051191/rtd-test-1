@@ -27,10 +27,3 @@ Reach out to us at support@sonarverse.com
 .. note::
 
    This project is under active development.
-
-
-
-
-
-
-
