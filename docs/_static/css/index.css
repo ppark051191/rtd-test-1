@@ -1,8 +1,16 @@
-
 body {
   background-image: url('../img/background/bkgd.jpeg') !important;
   background-size: cover !important;
   /* color: white !important; */
+}
+
+.md-main__inner {
+  margin: 0 !important;
+}
+
+.md-grid {
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 header, .md-tabs {
