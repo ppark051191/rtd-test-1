@@ -17,10 +17,6 @@ header, .md-tabs {
   background-color: #0E0B20 !important;
 }
 
-.md-content {
-  overflow-y: scroll;
-}
-
 .md-nav, .md-nav__title, .md-nav__item, .md-nav__link {
   color: white !important;
   box-shadow: 0 0 0 0 !important;
