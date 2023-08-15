@@ -13,7 +13,7 @@ We maintain the infrastructure necessary for blockchain data ingestion and trans
     * TOKENS
     * TRANSACTIONS
     * And more!
-* New to Web3? View our Terminology page for an overview of must-know terms in the Web3 space.
+* New to Web3? View our [Terminology](./terminology/index.md) page for an overview of must-know terms in the Web3 space.
 
 !!!note
     Questions or Feedback?

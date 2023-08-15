@@ -7,7 +7,7 @@ nav:
     - Setting Up Snowflake: 'snowflake/setting_up_snowflake.md'
     - Querying Your Data: 'snowflake/querying_your_data.md'
   - EVM:
-    - EVM: 'evm/index.md'
+    - EVM Shares: 'evm/index.md'
     - EVM Datasets:
       - BLOCKS: 'evm/datasets/blocks.md'
       - LOGS: 'evm/datasets/logs.md'
@@ -48,7 +48,10 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - toc:
+      permalink: True
+      separator: "_"
 theme:
-  name: readthedocs
+  name: material
   features:
     - content.code.copy
