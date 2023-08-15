@@ -66,3 +66,7 @@ input {
   border-radius: 4px !important;
   border: 1px solid rgb(88, 88, 88) !important;
 }
+
+.md-footer {
+  display: none !important;
+}
