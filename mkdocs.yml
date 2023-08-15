@@ -1,7 +1,6 @@
 site_name: Sonarverse Documentation
 
 nav:
-  - Home: 'index.md'
   - Snowflake:
     - Snowflake Data Share: 'snowflake/index.md'
     - Setting Up Snowflake: 'snowflake/setting_up_snowflake.md'

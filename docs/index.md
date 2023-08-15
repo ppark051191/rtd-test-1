@@ -1,4 +1,8 @@
-## Sonarverse is the bleeding edge innovator in providing blockchain data and institutional level analytics.
+---
+title: Sonarverse Data Share
+---
+
+**Sonarverse is the bleeding edge innovator in providing blockchain data and institutional level analytics.**
 
 We maintain the infrastructure necessary for blockchain data ingestion and transformation so you don’t have to. With coverage for over 20 chains, we empower our users to conduct the most comprehensive analyses on the blockchain ecosystem through our curated on-chain and cross-chain datasets.
 
