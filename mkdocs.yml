@@ -1,0 +1,54 @@
+site_name: Sonarverse Documentation
+
+nav:
+  - Home: 'index.md'
+  - Snowflake:
+    - Snowflake Data Share: 'snowflake/index.md'
+    - Setting Up Snowflake: 'snowflake/setting_up_snowflake.md'
+    - Querying Your Data: 'snowflake/querying_your_data.md'
+  - EVM:
+    - EVM: 'evm/index.md'
+    - EVM Datasets:
+      - BLOCKS: 'evm/datasets/blocks.md'
+      - LOGS: 'evm/datasets/logs.md'
+      - PRICED_NET_TRANSFERS: 'evm/datasets/priced_net_transfers.md'
+      - PRICED_TRANSFERS: 'evm/datasets/priced_transfers.md'
+      - RECEIPTS: 'evm/datasets/receipts.md'
+      - ROLLUPS_DAILY_TOKEN: 'evm/datasets/rollups_daily_tokens.md'
+      - TOKENS: 'evm/datasets/tokens.md'
+      - TOKEN_TRANSFERS: 'evm/datasets/token_transfers.md'
+      - TRACES: 'evm/datasets/traces.md'
+      - TRANSACTIONS: 'evm/datasets/transactions.md'
+      - TRANSACTIONS_FAILED: 'evm/datasets/transactions_failed.md'
+    - EVM Functions: 'evm/functions.md'
+  - Cross Chain:
+    - Cross-Chain Share: 'cross_chain/index.md'
+    - Cross-Chain Functions: 'cross_chain/functions.md'
+  - Bitcoin:
+    - Bitcoin Share: 'bitcoin/index.md'
+    - Bitcoin Datasets:
+      - BLOCKS: 'bitcoin/datasets/blocks.md'
+      - INPUTS: 'bitcoin/datasets/inputs.md'
+      - OUTPUTS: 'bitcoin/datasets/outputs.md'
+      - TRANSACTIONS: 'bitcoin/datasets/transactions.md'
+  - Terminology: 'terminology/index.md'
+
+
+plugins:
+  - search
+  - awesome-pages
+markdown_extensions:
+  - tables
+  - attr_list
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+theme:
+  name: readthedocs
+  features:
+    - content.code.copy
