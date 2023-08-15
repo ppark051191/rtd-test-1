@@ -14,7 +14,11 @@ body {
 }
 
 header, .md-tabs {
-  background-color: transparent !important;
+  background-color: #0E0B20 !important;
+}
+
+.md-content {
+  overflow-y: scroll;
 }
 
 .md-nav, .md-nav__title, .md-nav__item, .md-nav__link {
@@ -32,6 +36,7 @@ header, .md-tabs {
 }
 
 .md-header__inner {
+  position: absolute !important;
   justify-content: end !important;
 }
 
@@ -48,16 +53,16 @@ header, .md-tabs {
   background-color: #4B42D7 !important;
 }
 
-.md-nav__link {
+.md-sidebar--primary .md-nav__link {
   padding: 6px 8px !important;
   border-radius: 8px !important;
 }
 
-.md-nav__link:hover {
+.md-sidebar--primary .md-nav__link:hover {
   background-color: #4c42d775 !important;
 }
 
-.md-nav__link--active {
+.md-sidebar--primary .md-nav__link--active {
   background-color: #4B42D7 !important;
 }
 
