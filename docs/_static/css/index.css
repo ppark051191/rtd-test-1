@@ -1,0 +1,16 @@
+
+body {
+  background-image: url('../img/background/bkgd.jpeg') !important;
+  background-size: cover !important;
+  /* color: white !important; */
+}
+
+header, .md-tabs {
+  background-color: transparent !important;
+}
+
+.md-nav, .md-nav__title, .md-nav__item, .md-nav__link {
+  color: white !important;
+  box-shadow: 0 0 0 0 !important;
+  background-color: transparent !important;
+}

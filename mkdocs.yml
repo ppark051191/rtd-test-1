@@ -53,9 +53,14 @@ markdown_extensions:
 theme:
   logo: _static/img/sv-logo-white.svg
   name: material
+  palette:
+    scheme: slate
   features:
     - content.code.copy
     - navigation.path
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.top
+extra_css:
+  - _static/css/index.css
