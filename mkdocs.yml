@@ -52,6 +52,7 @@ markdown_extensions:
       permalink: True
       separator: "_"
 theme:
+  logo: _static/img/sv-logo-white.svg
   name: material
   features:
     - content.code.copy
