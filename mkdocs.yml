@@ -55,3 +55,7 @@ theme:
   name: material
   features:
     - content.code.copy
+    - navigation.path
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky

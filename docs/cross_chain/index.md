@@ -4,7 +4,7 @@ Cross-chain refers to the interoperability or communication between different bl
 
 Each blockchain network typically operates independently with its own set of protocols, consensus mechanisms, and native assets. However, as the crypto industry has evolved, there is a growing need to connect these disparate blockchain networks to enable seamless interaction and the movement of assets between them.
 
-### Supported Chgains
+### Supported Chains
 - Ethereum
 - Binance
 - Fantom
