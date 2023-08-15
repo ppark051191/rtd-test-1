@@ -2,4 +2,3 @@ mkdocs
 mkdocs-awesome-pages-plugin
 mkdocs-material
 mkdocs-material-extensions
-pymdownx
