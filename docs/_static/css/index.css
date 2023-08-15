@@ -22,3 +22,46 @@ header, .md-tabs {
   box-shadow: 0 0 0 0 !important;
   background-color: transparent !important;
 }
+
+.md-header__button {
+  display: none !important;
+}
+
+.md-header__title {
+  display: none !important;
+}
+
+.md-header__inner {
+  justify-content: end !important;
+}
+
+.md-tabs__link {
+  padding: 6px 8px !important;
+  border-radius: 8px !important;
+}
+
+.md-tabs__link:hover {
+  background-color: #4c42d775 !important;
+}
+
+.md-tabs__link--active {
+  background-color: #4B42D7 !important;
+}
+
+.md-nav__link {
+  padding: 6px 8px !important;
+  border-radius: 8px !important;
+}
+
+.md-nav__link:hover {
+  background-color: #4c42d775 !important;
+}
+
+.md-nav__link--active {
+  background-color: #4B42D7 !important;
+}
+
+input {
+  border-radius: 4px !important;
+  border: 1px solid rgb(88, 88, 88) !important;
+}
